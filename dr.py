@@ -8,7 +8,7 @@ def deathroll(gold):
 
 	while gold != 1:
 		steps += 1
-		gold = np.random.randint(gold+1, size = 1) + 1 
+		gold = np.random.randint(gold, size = 1) + 1 
 
 	if steps%2 == 0:
 		return steps, 1, 0
@@ -24,7 +24,7 @@ def deathroll2(gold):
 
 	while gold != 1:
 		steps += 1
-		gold = np.random.randint(gold+1, size = 1) + 1 
+		gold = np.random.randint(gold, size = 1) + 1 
 
 	if steps%2 == 0:
 		return steps, 0, 1
