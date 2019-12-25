@@ -2,7 +2,7 @@
 Simulating a deathroll, a common practice done in WoW Classic nowadays. So people, know your risks and act accordingly!
 
 ## How to use it
-python Deathroll.py [stake] [how many simulations you want to be performed] [deathroll type]
+python dr.py [stake] [how many simulations you want to be performed] [deathroll type]
 
 ## What is a deathroll type
   1: Original deathroll initiator starts rolling
